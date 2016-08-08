@@ -1,0 +1,157 @@
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Questrial);
+
+@media (max-width: 3000px){
+body{
+	font-family: 'Questrial';
+
+   }
+}
+
+@media (max-width: 720px){
+	body{
+	font-family: 'Questrial';
+	}
+}
+
+.menu-item {
+	list-style: none;
+	display:inline;
+	z-index: 1;
+}
+
+.rows{
+	vertical-align: top;
+	position: relative;
+	width: 33%;
+	display:inline-block;
+}
+
+.items{
+	margin-top:5px;
+	transition: all 0.5s ease-in-out;
+	z-index: -1;
+}
+
+.items:hover{
+	transform: scale(1.1);
+	z-index: 2;
+}
+
+
+.div1{display:inline
+	margin-top: 150px;
+	margin-left: 30%;
+	position: relative;
+	top:150px;
+	width: 60%;
+	height: 300px;
+	transition: 1s;
+}
+
+.div1:hover{
+	transform: scale(1.2);
+}
+
+.div2{display:inline
+	margin-top: 80px;
+	margin-left: 40%;
+	top: 10px;
+	position: relative;
+	transition: 1s;
+
+
+}
+
+.div2:hover{
+	transform: scale(1.2);
+}
+
+.div3{display:inline
+	margin-top: 120px;
+	margin-left: 28%;
+	top: -200px;
+	position: relative;
+	transition: 1s;
+
+
+}
+
+.div3:hover{
+	transform: translate(-40px,40px);
+}
+
+.div4{display:inline
+	position: relative;
+
+}
+
+
+
+
+nav{
+	height: 60px;
+	padding-top: 20px; 
+	padding-bottom: 10px;
+	position: fixed;
+	margin: 0;
+	top:0;
+	left: 0;
+	width: 100%;
+	background: black;
+	color:white;
+	z-index: 1;
+}
+
+nav ul {
+	display: inline;
+	list-style:none;
+	width: 100%;
+	padding-top: 0px;
+	padding-bottom:0px;
+	margin-top: 0px;
+	text-align:right;
+	float: right;
+}
+
+nav ul li {
+	display: inline;
+	padding-right:80px;
+
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+	font-size:16px;
+	font-weight:60;
+}
+
+
+
+@media (max-width: 720px){
+	body{
+		
+		
+	}
+}
+
+.menu-item {
+	list-style: none;
+	display:inline;
+}
+
+.yellow{
+	color:white;
+	transition: all 0.3s linear;
+}
+
+.yellow:hover{
+	color:yellow;
+}
+
+
+
+
